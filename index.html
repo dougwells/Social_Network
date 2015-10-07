@@ -9,6 +9,8 @@
     <title>Dobble</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+      <!--FontAwesome CSS-->
+      <link href="css/font-awesome.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -71,7 +73,65 @@
                                     <textarea class="form-control" placeholder="Write on the wall"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-default">Submit</button>
+                                    <div class="btn-group pull-right">
+                                        <button type="button" class="btn btn-default">
+                                            <i class="fa fa-pencil"></i> Text</button>
+                                        <button type="button" class="btn btn-default">
+                                            <i class="fa fa-camera-retro"></i> Image</button>
+                                        <button type="button" class="btn btn-default">
+                                            <i class="fa fa-video-camera"></i> Video</button>
+                                    </div>
                             </form>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default post">
+                        <div class="panel-body">
+                            <div class="row">
+
+                                <div class="col-sm-2 thumbnail text-center post-avatar">
+                                    <a href="profile.html">
+                                        <img src="img/user.png">
+                                        <h5>DevUser1</h5>
+                                    </a>
+                                    <i class="fa fa-thumbs-o-up"> 7 Likes</i>
+                                </div>
+
+                                <div class="col-sm-10">
+
+                                    <div class="bubble pointer pointer-border">
+                                        <p>Mauris dapibus vulputate lectus quis dignissim. Phasellus laoreet tempor ullamcorper. Ut eget augue ultrices, lobortis purus a, tristique lacus. Sed vitae feugiat lectus. Maecenas ut diam dictum, placerat ante in, volutpat lacus. Ut id sem orci. Donec nisl felis, commodo eget erat a, volutpat laoreet est. Cras sollicitudin luctus orci a euismod. Integer id placerat diam. Aenean in commodo diam.</p>
+                                    </div>
+
+                                    <div class="post-actions">
+                                        <a href="#">Comment - </a>
+                                        <a href="#">Like - </a>
+                                        <a href="#">Follow - </a>
+                                        <a href="#">Share</a>
+                                    </div>
+
+                                    <div class="comment-form">
+                                        <form class="form-inline">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Enter Comment">
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                        </form>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <div class="comments">
+                                        <div class="comment">
+                                            <a class="comment-avatar pull-left" href="#"><img src="img/user.png"></a>
+                                            <div class="comment-text">
+                                                <p>Mauris dapibus vulputate lectus quis dignissim. Phasellus laoreet tempor ullamcorper.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
