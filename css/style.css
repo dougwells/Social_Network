@@ -18,4 +18,7 @@ header .form-inline {
     color: #ffffff !important;
 }
 
-
+.comment-avatar img{
+    width: 40px;
+    margin-right: 5px;
+}
