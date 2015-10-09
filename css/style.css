@@ -18,9 +18,69 @@ header .form-inline {
     color: #ffffff !important;
 }
 
+.bubble {
+    position: relative;
+    width: 580px;
+    min-height: 65px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #ffffff;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -15px;
+    left: -15px;
+    top: 50%;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #cccccc;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -15px;
+    left: -16px;
+    top: 50%;
+}
+
 .comment-avatar img{
     width: 40px;
     margin-right: 5px;
+}
+
+.friends li {
+    list-style-type: none;
+    padding: 5px;
+    display: inline;
+    float: left;
+}
+
+.friends img {
+    width: 55px;
+}
+
+.groups li {
+    list-style-type: none;
+    padding: 5px;
+    display: inline;
+    float: left;
+}
+
+.groups img {
+    width: 110px;
 }
 
 
