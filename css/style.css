@@ -18,6 +18,27 @@ header .form-inline {
     color: #ffffff !important;
 }
 
+.post-actions{
+    margin: 5px;
+}
+
+.new-comment-form .form-group{
+    width: 100%;
+}
+
+.new-comment-form input[type='text'] {
+    width: 100%
+}
+
+.comment {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 0;
+    overflow: auto;
+    width: 100%;
+}
+
 .bubble {
     position: relative;
     width: 580px;
@@ -61,26 +82,50 @@ header .form-inline {
     margin-right: 5px;
 }
 
-.friends li {
-    list-style-type: none;
-    padding: 5px;
-    display: inline;
-    float: left;
+.friends
+    li {
+        list-style-type: none;
+        padding: 0px 2px;
+        display: inline;
+        float: left;
+    }
+
+    .thumbnail {
+        margin-bottom: 5px;
+    }
+
+    img {
+        width: 55px;
+    }
+
+.groups
+    img {
+        width: 80px;
+        float: left;
+        margin: 15px;
+    }
+
+    .btn {
+    margin-top: 5px;
+    }
+
+.group-item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
 }
 
-.friends img {
-    width: 55px;
+footer {
+    background: #f4f4f4;
+    height: 90px;
+    color: #04519b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 7px solid #04519b;
 }
 
-.groups li {
-    list-style-type: none;
-    padding: 5px;
-    display: inline;
-    float: left;
-}
-
-.groups img {
-    width: 110px;
-}
 
 
