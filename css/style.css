@@ -116,6 +116,10 @@ header .form-inline {
     overflow: auto;
 }
 
+.members btn{
+    vertical-align: middle;
+}
+
 footer {
     background: #f4f4f4;
     height: 90px;
