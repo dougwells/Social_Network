@@ -82,30 +82,28 @@ header .form-inline {
     margin-right: 5px;
 }
 
-.friends
-    li {
+.friends li {
         list-style-type: none;
         padding: 0px 2px;
         display: inline;
         float: left;
     }
 
-    .thumbnail {
+.friends .thumbnail {
         margin-bottom: 5px;
     }
 
-    img {
+.friends img {
         width: 55px;
     }
 
-.groups
-    img {
+.groups img {
         width: 80px;
         float: left;
         margin: 15px;
     }
 
-    .btn {
+.groups .btn {
     margin-top: 5px;
     }
 
@@ -116,8 +114,14 @@ header .form-inline {
     overflow: auto;
 }
 
-.members btn{
-    vertical-align: middle;
+.members .member-row {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.members img {
+    margin-bottom: 5px;
 }
 
 footer {
@@ -130,6 +134,13 @@ footer {
     margin-top: 30px;
     border-top: 7px solid #04519b;
 }
+
+@media (min-width: 991px){
+    .members p{
+        padding-top: 40px;
+    }
+}
+
 
 
 
