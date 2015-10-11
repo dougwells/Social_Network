@@ -133,6 +133,22 @@ header .form-inline {
     list-style: none;
 }
 
+.photos {
+    margin: 0;
+    padding: 0;
+}
+
+.photos li{
+    list-style: none;
+    margin: 5px;
+    float: left;
+    width: 23%;
+}
+
+.photos img {
+    width: 100%;
+}
+
 footer {
     background: #f4f4f4;
     height: 90px;
