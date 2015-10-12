@@ -66,13 +66,26 @@
         <div class="col-md-8">
             <h1 class="page-header">Photos</h1>
             <ul class="photos gallery-parent">
-                <li><a href="img/sample1.jpg" data-title="Eagle Close-up" data-footer="1995 Alaska Trip" data-toggle="lightbox">
-                    <img src="img/sample1.jpg" class="img-thumbnail"></a></li>
-                <li><img src="img/sample2.jpg" class="img-thumbnail"></li>
-                <li><img src="img/sample3.jpg" class="img-thumbnail"></li>
-                <li><img src="img/sample4.jpg" class="img-thumbnail"></li>
-                <li><img src="img/sample5.jpg" class="img-thumbnail"></li>
-                <li><img src="img/sample6.jpg" class="img-thumbnail"></li>
+
+                <li><a href="img/sample1.jpg" data-title="Eagle Close-up" data-footer="1995 Alaska Trip" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="Eagle">
+                    <img src="img/sample1.jpg" class="img-thumbnail"></a>
+                </li>
+                <li><a href="img/sample2.jpg" data-title="Cool Colored Glass Tubes" data-footer="SLC Factory Tour" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="Glass Tubes">
+                    <img src="img/sample2.jpg" class="img-thumbnail"></a>
+                </li>
+                <li><a href="img/sample3.jpg" data-title="Sugarhouse Park Benches" data-footer="Circa 2008" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="Benches">
+                    <img src="img/sample3.jpg" class="img-thumbnail"></a>
+                </li>
+                <li><a href="img/sample4.jpg" data-title="Sierras Sun Flower" data-footer="Summer 2015" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="Sierras Green Thumb">
+                    <img src="img/sample4.jpg" class="img-thumbnail"></a>
+                </li>
+                <li><a href="img/sample5.jpg" data-title="Kids Pinwheel" data-footer="2012 Utah State Fair" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="Pinwheel Close-Up">
+                    <img src="img/sample5.jpg" class="img-thumbnail"></a>
+                </li>
+                <li><a href="img/sample6.jpg" data-title="Glass Marbles" data-footer="2014 Photo Contest" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="Marbles">
+                    <img src="img/sample6.jpg" class="img-thumbnail"></a>
+                </li>
+
             </ul>
 
         </div>
@@ -162,6 +175,10 @@
         event.preventDefault();
         $(this).ekkoLightbox();
     });
+
+    $(function () {
+        $('[data-hover="tooltip"]').tooltip()
+    })
 </script>
 </body>
 </html>
